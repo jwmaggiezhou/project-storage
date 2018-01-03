@@ -1,0 +1,18 @@
+<!--banner header-->
+<app-login *ngIf="!isLoggedIn()"></app-login>
+<div *ngIf="isLoggedIn()">
+  <header>
+    <div class="logo">
+      <a routerLink = "/home" routerLinkActive="active" rel="noopener" href="">
+        <img src="assets/img/logo2_circles.png">
+      </a>
+    </div>
+    <span class="page-title">
+      <h1>{{getLocation().path().substring(1)}}</h1>
+      <cuppa-slidemenu [menulist]="menuItemsArray" (open)="onMenuOpen()" (close)="onMenuClose()" (onItemSelect)="onItemSelect($event)"></cuppa-slidemenu>
+    </span>
+  </header>
+  <div class="spacer"></div>
+    <a *ngIf="getLocation().path() != '/home'" href="#" (click)="goBack()" class="previous">&laquo;BACK</a>
+    <router-outlet></router-outlet>
+</div>

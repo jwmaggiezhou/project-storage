@@ -1,0 +1,36 @@
+.content {
+  display: flexbox;
+  margin: 0;
+}
+.panel {
+  background: #0071A9;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+}
+.panel a {
+  color: #ffffff;
+  text-decoration: inherit;
+}
+.fa {
+  font-size: 2em;
+  width: 32%;
+  padding: 10%;
+}
+
+#agreement-panel {
+  background: #53bdc0;
+}
+#calendar-panel {
+  background: #209dd4;
+}
+h2 {
+  color: #ffffff;
+  font-size: 0.9em;
+  font-weight: 600;
+  vertical-align: middle;
+  text-transform: uppercase;
+  display: inline-block;
+}

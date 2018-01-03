@@ -1,0 +1,28 @@
+<div (clickOutside)="closeMenu()">
+  <button (click)="menuToggle()" class="hamburger hamburger-arrow-right" [ngClass]="{'is-active': menuState, '': !menuState}">
+      <span class="icon"></span>
+  </button>
+<div class="menu-container cuppa-menu" [ngClass]="{'show-menu': menuState, 'hide-menu': !menuState}">
+  <div class="user">
+    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+    <div class ="userinfo"><p *ngIf="user!=null" >{{user.fullName}}<br />{{user.roleNameDesc}}</p></div>
+  </div>
+  <div class="spacer"></div>
+  <ul>
+      <li *ngFor="let item of menulist" (click)="onItemClick(item)">
+          <a [routerLink]="item.link" routerLinkActive="active" rel="noopener" href="" routerLinkActive="active">{{item.title}}</a>
+            <!--  <i *ngIf="item.subItems && !item.expand" class="fa fa-angle-down"></i>
+              <i *ngIf="item.subItems && item.expand" class="fa fa-angle-up"></i>
+          </a>
+         <ul *ngIf="item.subItems" class="sub-menu" [hidden]="!item.expand">
+             <li *ngFor="let subitem of item.subItems" (click)="onItemClick(subitem)"><a>{{subitem.title}}</a></li>
+         </ul> -->
+      </li>
+
+  </ul>
+  <div class="logout">
+    <a (click)="logout()" routerLink = "/login" routerLinkActive="active" rel="noopener" href="">Logout</a>
+  </div>
+</div>
+</div>
+<!--<div class="cuppa-menu-overlay" [ngClass]="{'show-overlay': menuState, 'hide-overlay': !menuState}"></div> -->

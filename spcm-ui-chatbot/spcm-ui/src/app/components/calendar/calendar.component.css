@@ -1,0 +1,33 @@
+.overall {
+  margin: 10px;
+  overflow: scroll;
+
+}
+
+
+h4 {
+  padding-top: 10px;
+  display: block;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.prev-month {
+  position: absolute;
+  padding: 10px;
+  left: 20px;
+}
+
+.next-month {
+  position: absolute;
+  padding: 10px;
+  right: 20px;
+}
+
+.events{
+  list-style-type: none;
+  padding: 4%;
+  background: #0071A9;
+  color: #fff;
+  margin: 2%;
+}

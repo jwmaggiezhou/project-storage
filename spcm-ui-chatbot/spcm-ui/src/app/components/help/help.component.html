@@ -1,0 +1,12 @@
+
+<div class="frame">
+    <ul class='help'></ul>
+</div>
+
+<div class="inquiry-box" style="margin:auto">
+  <form name="form" (submit)="inquiry()" novalidate>
+    <input [(ngModel)]="question" type="text" class="form-control" name="question" placeholder="Type in your inquiry" required/>
+    <button class="submit" type="submit">Submit</button>
+  </form>
+</div>
+

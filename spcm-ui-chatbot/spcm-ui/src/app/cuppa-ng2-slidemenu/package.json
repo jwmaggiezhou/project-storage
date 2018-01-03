@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cuppa-ng2-slidemenu",
+        "scope": null,
+        "escapedName": "cuppa-ng2-slidemenu",
+        "name": "cuppa-ng2-slidemenu",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "U:\\my-app"
+    ]
+  ],
+  "_from": "cuppa-ng2-slidemenu@latest",
+  "_id": "cuppa-ng2-slidemenu@1.0.2",
+  "_inCache": true,
+  "_location": "/cuppa-ng2-slidemenu",
+  "_nodeVersion": "6.9.5",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/cuppa-ng2-slidemenu-1.0.2.tgz_1490704346579_0.6092328615486622"
+  },
+  "_npmUser": {
+    "name": "solomon301",
+    "email": "solomon.terli@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cuppa-ng2-slidemenu",
+    "scope": null,
+    "escapedName": "cuppa-ng2-slidemenu",
+    "name": "cuppa-ng2-slidemenu",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cuppa-ng2-slidemenu/-/cuppa-ng2-slidemenu-1.0.2.tgz",
+  "_shasum": "0e1e55bf091b1e7f3ffc41b5ccd6da3d3ae85f3e",
+  "_shrinkwrap": null,
+  "_spec": "cuppa-ng2-slidemenu",
+  "_where": "U:\\my-app",
+  "angular-cli": {},
+  "author": {
+    "name": "Pradeep Terli"
+  },
+  "bugs": {
+    "url": "https://github.com/angularclass/cuppa-ng2-slidemenu/issues"
+  },
+  "dependencies": {},
+  "description": "An Angular 2 slide out navigation menu for web and mobile. Also, called as slide menu.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "0e1e55bf091b1e7f3ffc41b5ccd6da3d3ae85f3e",
+    "tarball": "https://registry.npmjs.org/cuppa-ng2-slidemenu/-/cuppa-ng2-slidemenu-1.0.2.tgz"
+  },
+  "engines": {
+    "node": ">= 4.2.1",
+    "npm": ">= 3"
+  },
+  "homepage": "https://github.com/angularclass/cuppa-ng2-slidemenu#readme",
+  "keywords": [
+    "angular2 menu",
+    "slide menu",
+    "ng2 menu"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "solomon301",
+      "email": "solomon.terli@gmail.com"
+    }
+  ],
+  "name": "cuppa-ng2-slidemenu",
+  "optionalDependencies": {},
+  "private": false,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angularclass/cuppa-ng2-slidemenu.git"
+  },
+  "scripts": {
+    "e2e": "ng e2e",
+    "lint": "ng lint",
+    "ng": "ng",
+    "start": "ng serve",
+    "test": "ng test"
+  },
+  "version": "1.0.2"
+}

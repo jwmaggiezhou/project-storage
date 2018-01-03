@@ -1,0 +1,20 @@
+<a href="https://www.ontario.ca/">
+  <img id="trillium" src="assets/img/trillium.png">
+</a>
+<img src="assets/img/logo2_circles.png">
+<div class="login-box">
+    <form name="form" (submit)="login()" novalidate>
+        <div class="form-group" >
+            <i class="fa fa-user-o" aria-hidden="true"></i>
+            <input [(ngModel)]="username" type="text" class="form-control" name="username" placeholder="Username" required />
+        </div>
+        <div class="form-group" >
+            <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+            <input [(ngModel)]="password" type="password" class="form-control" name="password" placeholder="Password" required />
+        </div>
+        <div class="form-group sign-in">
+            <button type="submit" class="btn btn-primary">Sign In</button>
+            <a class="iforgot" href="/">Forget Password?</a>
+        </div>
+    </form>
+</div>

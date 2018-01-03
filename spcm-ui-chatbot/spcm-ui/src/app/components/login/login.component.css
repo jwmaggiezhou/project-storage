@@ -1,0 +1,81 @@
+:host{
+
+  background-color: #0071A9;
+}
+
+.form-group {
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+.sign-in{
+  padding-top: 20%;
+  border: 0;
+  text-align: center;
+}
+
+button{
+  width: 100%;
+  background-color: #000;
+  border-radius: 10px;
+
+}
+
+i{
+  position: absolute;
+  padding-top: 3%;
+  padding-left: 2%;
+}
+
+.fa-unlock-alt{
+  font-size: 1.15em;
+}
+
+.login-box{
+  position: relative;
+  background-color: #fff;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img{
+  display: block;
+  max-width: 65%;
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+input{
+  border: 0;
+  outline: 0;
+  padding-left: 15%;
+  padding-bottom: 2%
+}
+
+form{
+  padding-top: 10%;
+}
+
+.iforgot{
+  text-decoration: none;
+  color: gray;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  display: block;
+  padding-left: 5%;
+  text-align: left;
+}
+
+#trillium {
+  width: 40%;
+  display: inline-block;
+  padding: 0;
+}
