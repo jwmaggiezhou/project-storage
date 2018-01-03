@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_flight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cs.b07.cscb07courseproject.EditFlight"
+    android:background="@drawable/backg_work">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorSageGreen" />
+    <TextView android:id="@+id/how_to"
+        android:layout_below="@id/toolbar"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/how_to_edit"/>
+    <EditText android:id="@+id/flight_number"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/how_to"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/flight_number"/>
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/how_to"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter"
+        android:onClick="verifyFlight"/>
+
+    <ScrollView android:id="@+id/edit_flight_scrollview"
+        android:layout_below="@id/flight_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/airline"
+                android:onClick="editAirline" />
+            <TextView android:id="@+id/curr_airline"
+                android:textSize="20sp"
+                android:layout_marginTop="-50dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+            <EditText android:id="@+id/new_airline"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:visibility="gone"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/origin"
+                android:onClick="editOrigin" />
+            <TextView android:id="@+id/curr_origin"
+                android:textSize="20sp"
+                android:layout_marginTop="-50dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+            <EditText android:id="@+id/new_origin"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:visibility="gone"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/destination"
+                android:onClick="editDestination" />
+            <TextView android:id="@+id/curr_destination"
+                android:textSize="20sp"
+                android:layout_marginTop="-50dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+            <EditText android:id="@+id/new_destination"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:visibility="gone"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/departure_date"
+                android:onClick="editDepartureDate"/>
+            <TextView android:id="@+id/curr_departure_date"
+                android:textSize="20sp"
+                android:layout_marginTop="-50dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"/>
+            <DatePicker
+                android:id="@+id/new_departure_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false"
+                android:visibility="gone"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/departure_time"
+                android:onClick="editDepartureTime"/>
+            <TextView android:id="@+id/curr_departure_time"
+                android:textSize="20sp"
+                android:layout_marginTop="-50dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"/>
+            <TimePicker
+                android:id="@+id/new_departure_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner"
+                android:calendarViewShown="false"
+                android:visibility="gone"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/arrival_date"
+                android:onClick="editArrivalDate"/>
+            <TextView android:id="@+id/curr_arrival_date"
+                android:textSize="20sp"
+                android:layout_marginTop="-50dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"/>
+            <DatePicker
+                android:id="@+id/new_arrival_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false"
+                android:visibility="gone"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/arrival_time"
+                android:onClick="editArrivalTime"/>
+            <TextView android:id="@+id/curr_arrival_time"
+                android:textSize="20sp"
+                android:layout_marginTop="-50dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"/>
+            <TimePicker
+                android:id="@+id/new_arrival_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner"
+                android:calendarViewShown="false"
+                android:visibility="gone"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/cost"
+                android:onClick="editCost" />
+            <TextView android:id="@+id/curr_cost"
+                android:textSize="20sp"
+                android:layout_marginTop="-50dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+            <EditText android:id="@+id/new_cost"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:visibility="gone"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="capacity"
+                android:onClick="editCapacity" />
+            <TextView android:id="@+id/curr_capacity"
+                android:textSize="20sp"
+                android:layout_marginTop="-50dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+            <EditText android:id="@+id/new_capacity"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_cost"
+                android:maxLines="1"
+                android:visibility="gone"/>
+
+
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter"
+                android:onClick="setFlightInfo"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

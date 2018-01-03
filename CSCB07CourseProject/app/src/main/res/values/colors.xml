@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#c2c8f0</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPaleGreen">#e0eee0</color>
+    <color name="colorSageGreen">#c1cdc1</color>
+    <color name="colorsNavajoWhite">#FFDEAD</color>
+    <color name="colorsSeashell">#FFF5EE</color>
+    <color name="colorsLightSeaGreen">#20B2AA</color>
+    <color name="colorsMintCream">#F5FFFA</color>
+
+
+
+</resources>

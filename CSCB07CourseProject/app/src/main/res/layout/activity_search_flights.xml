@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_flights"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cs.b07.cscb07courseproject.SearchFlights"
+    android:background="@drawable/backg">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPaleGreen"
+        android:elevation="4dp"/>
+    <LinearLayout android:id="@+id/textviews"
+        android:layout_below="@id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView android:id="@+id/departure_date"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/departure_date"
+            android:textSize="16sp"
+            android:textAlignment="center"/>
+        <TextView android:id="@+id/origin"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/origin"
+            android:textSize="16sp"
+            android:textAlignment="center"/>
+        <TextView android:id="@+id/destination"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/destination"
+            android:textSize="16sp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/editviews"
+        android:layout_below="@id/textviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText android:id="@+id/set_dep"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/set_origin"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/set_destination"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button android:id="@+id/enter_button"
+        android:layout_below="@id/editviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/enter"
+        android:onClick="searchFlights"/>
+    <LinearLayout
+        android:layout_below="@id/enter_button"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView android:id="@+id/list_flights"
+            android:background="@color/colorSageGreen"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="true">
+        </ListView>
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText android:id="@+id/book_to"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_address"
+                android:visibility="gone"/>
+            <Button android:id="@+id/book_flight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/book_flight"
+                android:onClick="bookFlight"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

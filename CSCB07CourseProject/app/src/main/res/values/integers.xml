@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="SEARCH_FLIGHTS">1</integer>
+    <integer name="SEARCH_ITINERARIES">2</integer>
+    <integer name="VIEW_ITINERARIES">3</integer>
+    <integer name="PERSONAL_INFO">4</integer>
+    <integer name="CLIENT_HOME_PAGE">5</integer>
+
+    <integer name="ADMIN_HOME_PAGE">6</integer>
+    <integer name="BOOKING_SYSTEM">7</integer>
+    <integer name="CLIENT_EDIT">8</integer>
+    <integer name="FLIGHT_EDIT">9</integer>
+
+
+    <integer name="UPLOADING">11</integer>
+    <integer name="VIEW_UPLOAD_CONTENT">12</integer>
+</resources>

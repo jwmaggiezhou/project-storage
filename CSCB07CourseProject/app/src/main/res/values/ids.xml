@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="client_first_names" type="id">First names</item>
+    <item name="client_address" type="id">address</item>
+    <item name="client_credit_card" type="id">credit card</item>
+    <item name="client_credit_expiry" type="id">credit expiry</item>
+    <item name="client_dob" type="id">birthday</item>
+    <item name="client_last_name" type="id">last name</item>
+    <item name="client_file_name" type="id">client file</item>
+    <item name="file_content" type="id">file content to display</item>
+    <item name="Flight_file_name" type="id">flight file name</item>
+    <item name="flight_file_name" type="id">flight file name</item>
+    <item name="password_file_name" type="id">password file</item>
+    <item name="arrival_date" type="id">arrival date time</item>
+</resources>

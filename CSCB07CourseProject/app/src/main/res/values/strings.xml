@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">CSCB07CourseProject</string>
+    <string name="admin_login">ADMIN\nLOGIN</string>
+    <string name="client_login">CLIENT\nLOGIN</string>
+    <string name="sign_up">SIGN\nUP</string>
+    <string name="email_address">Email Address</string>
+    <string name="client_email_address">Client Email Address</string>
+    <string name="password">Password</string>
+    <string name="new_password">New Password</string>
+    <string name="rePassword">Re-enter your password</string>
+    <string name="enter">Enter</string>
+    <string name="login_service">Login Service</string>
+    <string name="application_page">Application Page</string>
+    <string name="login">Log in</string>
+    <string name="welcome">Welcome&#160;</string>
+    <string name="no_input">No Input for&#160;</string>
+    <string name="log_out">Log Out</string>
+    <string name="down_arrow">&#9660;</string>
+    <string name="up_arrow">&#9650;</string>
+    <string name="sort">Sort</string>
+
+    <string name="is_admin">Is Admin</string>
+    <string name="admin">Admin</string>
+    <string name="client">Client</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="credit_card_number">Credit Card Number</string>
+    <string name="expiry_date">Expiry Date</string>
+
+    <string name="flight_number">Flight Number</string>
+    <string name="departure_date">Departure Date</string>
+    <string name="departure_time">Departure Time</string>
+    <string name="arrival_date">Arrival Date</string>
+    <string name="arrival_time">Arrival Time</string>
+    <string name="origin">Origin</string>
+    <string name="destination">Destination</string>
+    <string name="book_flight">Book Flight</string>
+    <string name="book_itinerary">Book Itinerary</string>
+    <string name="airline">Airline</string>
+    <string name="cost">Cost</string>
+    <string name="flight_no_seats">Flight has no seats left.\nPlease refresh search.</string>
+    <string name="itinerary_no_seats">One of the flights have no seats left.\nPlease refresh search.</string>
+    <string name="booking_complete">Booking Complete</string>
+
+    <string name="get_first_name"></string>
+    <string name="get_last_name"></string>
+    <string name="get_address"></string>
+    <string name="get_credit_card_number"></string>
+
+
+    <string name="get_airline"></string>
+    <string name="get_origin"></string>
+    <string name="get_destination"></string>
+    <string name="get_cost"></string>
+
+    <string name="password_not_match">Passwords do not match</string>
+    <string name="no_such_client">Client does not exist</string>
+
+    <string name="edit_personal_info">Edit\nPersonal Information</string>
+    <string name="search_flights">Search Flights</string>
+    <string name="search_itineraries">Search Itineraries</string>
+    <string name="view_itineraries">View Itineraries</string>
+    <string name="sort_travel_time">Travel Time</string>
+    <string name="sort_cost">Cost</string>
+    <string name="wrong_password_message">Wrong password or email address\nPlease try again</string>
+    <string name="title_activity_admin_log_in">Sign in</string>
+    <string name="save">save</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="ok">OK</string>
+    <string name="access_client_info">Access Client Information</string>string>
+    <string name="access_flight_info">Access Flight Information</string>string>
+    <string name="upload_info">Uploading Files</string>string>
+    <string name="access_app">Access Booking System</string>
+    <string name="success_msg">File Uploaded Successfully</string>
+    <string name="incorrect_date_time">Incorrect Date Time Format</string>string>
+    <string name="incorrect_input_format">One or more inputs are in incorrect form</string>string>
+    <string name="incorrect_date">Incorrect Date Format</string>string>
+    <string name="booking_system">Booking System</string>
+    <string name="unable_to_login">Unable to log in..</string>
+    <string name="user_pw_mismatch">Mismatched user name and password!</string>
+    <string name="nonexisting_user_msg">User does not exist</string>
+    <string name="edit_client_info">Edit Client Information</string>
+    <string name="edit_flight_info">Edit Flight Information</string>
+    <string name="set_personal_info">Set Personal Information</string>
+    <string name="database">database</string>
+    <string name="admin_email">123@email.com</string>
+    <string name="admin_pw">12345</string>
+    <string name="unable_upload">Unable to Upload..</string>
+    <string name="one_more_pw_not_match">One or More Passwords Do Not Match Clients</string>
+    <string name="file_not_exist">File Does Not Exist</string>
+
+    <string name="space">&#160;</string>
+    <string name="empty_str"></string>
+    <string name="date_separator">-</string>
+    <string name="time_separator">:</string>
+    <string name="missing_input">One or more input fields are missing</string>
+
+    <string name="create_admin">Create Admin Account</string>
+    <string name="admin_account_created">Admin account created</string>
+    <string name="how_to_edit">Clicking a category once will allow you to edit.\nClick again to close if you do not wish to edit.</string>
+    <string name="default_admin_email">admin@email.com</string>
+    <string name="default_admin_password">12345</string>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_admin_home_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cs.b07.cscb07courseproject.AdminHomePage"
+    android:background="@drawable/backg_work">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPaleGreen"
+        android:elevation="4dp"/>
+    <Button
+        android:id="@+id/access_client_information"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text= "@string/access_client_info"
+        android:onClick="accessClientInfo"/>
+    <Button
+        android:id="@+id/access_flight_information"
+        android:layout_below="@id/access_client_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text= "@string/access_flight_info"
+        android:onClick="accessFlightInfo"/>
+    <Button
+        android:id="@+id/uploading_files"
+        android:layout_below="@id/access_flight_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text= "@string/upload_info"
+        android:onClick="uploadFiles"
+        android:layout_alignEnd="@+id/access_flight_information"
+        android:layout_alignStart="@+id/access_booking_system" />
+    <Button
+        android:id="@+id/access_booking_system"
+        android:layout_below="@id/uploading_files"
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text= "@string/access_app"
+        android:onClick="bookingSystem"
+        android:layout_alignEnd="@+id/access_flight_information"
+        android:layout_alignStart="@+id/access_flight_information" />
+
+    <EditText
+        android:id="@+id/admin_signup_email"
+        android:hint="@string/email_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/access_booking_system"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:layout_below="@+id/admin_signup_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/admin_signup_password" />
+    <Button
+        android:text="@string/create_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin_signup_password"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/admin_signup"
+        android:onClick="createAdmin"/>
+
+
+
+</RelativeLayout>

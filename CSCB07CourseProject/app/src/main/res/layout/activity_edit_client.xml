@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_client"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cs.b07.cscb07courseproject.EditClient"
+    android:background="@drawable/backg_work">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorSageGreen" />
+    <TextView android:id="@+id/how_to"
+        android:layout_below="@id/toolbar"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/how_to_edit"/>
+    <EditText android:id="@+id/client_email_address"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/how_to"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/client_email_address"/>
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/how_to"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter"
+        android:onClick="verifyClient"/>
+    <ScrollView android:id="@+id/edit_client_scrollview"
+        android:layout_below="@id/client_email_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/first_name"
+                android:onClick="editFirstName" />
+            <TextView android:id="@+id/curr_first_name"
+                android:textSize="20sp"
+                android:layout_marginTop="-50dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:visibility="visible"/>
+            <EditText android:id="@+id/new_first_name"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:visibility="gone"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/last_name"
+                android:onClick="editLastName" />
+            <TextView android:id="@+id/curr_last_name"
+                android:textSize="20sp"
+                android:layout_marginTop="-50dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:visibility="visible"/>
+            <EditText android:id="@+id/new_last_name"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:visibility="gone"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/address"
+                android:onClick="editAddress" />
+            <TextView android:id="@+id/curr_address"
+                android:textSize="20sp"
+                android:layout_marginTop="-50dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:visibility="visible"/>
+            <EditText android:id="@+id/new_address"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:visibility="gone"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/credit_card_number"
+                android:onClick="editCreditCardNumber" />
+            <TextView android:id="@+id/curr_cred_num"
+                android:textSize="20sp"
+                android:layout_marginTop="-50dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:visibility="visible"/>
+            <EditText android:id="@+id/new_cred_num"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:visibility="gone"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/expiry_date"
+                android:onClick="editExpiryDate"/>
+            <TextView android:id="@+id/curr_expiry_date"
+                android:textSize="20sp"
+                android:layout_marginTop="-50dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:visibility="visible"/>
+            <DatePicker
+                android:id="@+id/new_expiry_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false"
+                android:visibility="gone"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/password"
+                android:onClick="editPassword"/>
+            <EditText android:id="@+id/new_password"
+                android:textSize="20sp"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:hint="@string/new_password"
+                android:visibility="gone"/>
+            <EditText android:id="@+id/confirm_password"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:hint="@string/rePassword"
+                android:visibility="gone"/>
+
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter"
+                android:onClick="setClientInfo"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
