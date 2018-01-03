@@ -1,0 +1,30 @@
+
+
+{
+	"custom": [
+
+        [
+            "How is service provider information updated in EOIS-SP Connect?",
+            "The service provider section contains content that is managed in both CaMS and SP Connect. The information in the Service Provider Profile, Address and Service Delivery Sites panels is populated from CaMS and must be updated by a Ministry Regional Coordinator or Ministry Regional Administrator from the Resources and Planning Unit . Changes will appear the next day in SP Connect. The information in the Corporate Details panel can be updated in SP Connect by directly clicking on the Edit button."
+        ],
+        [
+            "A service provider contacted the local office to advise they have received a 'Notice for Certification of Insurance Expiration' email. Was this email sent by SP Connect?",
+            "SP Connect sends email notifications to service providers when the Certificate of Insurance (CoI) expiration date is approaching and/or if the date has already past. For the initial launch of SP Connect, the CoI expiration date was based on the current expiration date  in the FMR. Once the CoI is received, the Ministry Regional Administrator can open the agreement page and capture the new date expiration date in the Corporate Details Panel."
+        ],
+        [
+            "What happens in SP Connect if the Certificate of Insurance (Col) expires?",
+            "If the CoI expiration date has past, the system will automatically put a hold on the payments. The service provider's payments will be automatically held  for all agreements  and will not appear on the payment report. A hold can be removed by the Ministry Regional Administrator by unchecking and saving the 'Hold Payments' box under the Agreement Page Corporate Details panel and removing the COI Expired comments."
+        ],
+        [
+          "Why does the Service Provider page show a 'CoI Expired' comment even though the COI date is not expired?",
+          "When the COI expiration date was updated the comment was not removed. The Ministry Regional Administrator should go in and remove the comment."
+        ],
+        [
+          "What role will MAESD staff have in creating and maintaining EOIS-SP Connect user accounts for service providers?",
+          "SP Connect service providers will be responsible for managing their own user accounts via the CaMS user set up process. Every service provider organization must appoint individuals who will assume the responsibility  of creating and maintaining their own user accounts. These individuals will be designated as the Service Provider Registration Authorities (SPRA). The Ministry Resources and Planning staff will be responsible for creating and maintaining SPRA user accounts but once the SPRAs are set up, the SPRA will manage the user community within their agency."
+        ]
+
+
+    ]
+
+}

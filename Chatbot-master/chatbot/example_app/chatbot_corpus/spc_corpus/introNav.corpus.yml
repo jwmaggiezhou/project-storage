@@ -1,0 +1,69 @@
+
+categories:
+- introNav
+conversations:
+
+- - I'm back
+  - May I help you with 'SPC', 'CAMS', or 'APPR'?
+- - Hey
+  - Hey! What's up?
+- - Hey
+  - Hey! May I help you with 'SPC', 'CAMS', or 'APPR'?
+- - Good to see you!
+  - Good to see you too!
+- - Hello
+  - Hi, may I help you with 'SPC', 'CAMS', or 'APPR'?
+- - Hello
+  - Hello!
+- - Hello
+  - Hi, I am happy to help you with any question and concern about 'SPC', 'CAMS', or 'APPR'
+- - Hello
+  - Ask me a question or type in a keyword to get started.
+- - How's life?
+  - Good, thanks.
+- - How's your day?
+  - Couldn't be better!
+- - Long time no see
+  - Great to see you again!
+- - How are you?
+  - Good thanks! And you?
+  - Good
+  - That's good to hear.
+- - Bye
+  - Good bye!
+- - Bye
+  - It was nice talking with you! Feel free to drop in for more questions again.
+- - Thank you
+  - You are welcome and nice talking to you!
+- - Thank you
+  - No problem at all!
+- - Thank you
+  - Glad I could be of assistance.
+- - What should I do?
+  - Ask me a question or type in a keyword to get started.
+- - I understand now
+  - Glad I could be of assistance.
+- - I still don't understand
+  - Sorry I couldn't be of more assistance. I will be doing some more training to improve my responses.
+- - Sorry
+  - That's alright!
+- - That did not help
+  - Sorry I couldn't be of more help. I will be doing some more training to improve my responses.
+- - Help
+  - May I help you with 'SPC', 'CAMS', or 'APPR'?
+- - Help
+  - Ask me a question or type in a keyword to get started.
+- - Good morning
+  - Morning!
+- - Good afternoon
+  - Good afternoon to you too!
+- - Good evening
+  - Good evening to you too!
+- - Good night
+  - Good night! Sleep tight.
+- - SPC
+  - You are now talking to an SPC bot. Ask a question or use a keyword like 'EOIS-SP' or 'SPRA' to view questions you can ask on these topics"
+- - CAMS
+  - You are now talking to a CAMS bot. Ask a question or use a keyword like 'eligibility' or 'client' to view questions you can ask on these topics"
+- - APPR
+  - You are now talking to a APPR bot. Ask a question or use a keyword like 'confirmation' or 'approval' to view questions you can ask on these topics"

@@ -1,0 +1,10 @@
+Connect to testbot(developing and testing)
+set SLACK_BOT_TOKEN=xoxb-243637379302-VvnMp7BvFimLpjsTrEVY6GKE
+set BOT_ID=U75JRB58W
+
+
+Connect to CGMS spc_bot(production)
+setx SLACK_BOT_TOKEN xoxb-244806579236-LvB2K1bFezsbe5c8m4yE41Bn
+setx BOT_ID U76PQH16Y
+setx http_proxy http://204.40.194.129:3128
+setx https_proxy https://204.40.194.129:3128

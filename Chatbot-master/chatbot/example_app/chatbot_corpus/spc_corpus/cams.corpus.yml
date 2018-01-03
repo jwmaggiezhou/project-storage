@@ -1,0 +1,28 @@
+
+categories:
+- cams
+conversations:
+
+- - My service provider closed a service plan that contains incorrect information. What can they do to fix it?
+  - Once closed, a service plan cannot be reopened.  The reason for closure can be changed.  If a closed service plan includes incorrect information, the Service Provider should change the closure reason to 'Opened in Error' and a new service plan should be created with the correct information. A service plan with a closure reason of 'Opened in Error' will not affect the Service Providers reports.
+- - How does my service provider close a duplicate client record?
+  - Closing duplicate Employment Ontario (EO) cases is the responsibility of the EOIS Service Desk.  For an Employment Ontario case to be closed, all other cases associated to that case must also be closed. This includes service plans and PDCs.  Service Providers must close all service plans before the EO case can be closed.
+- - Why can my service provider still see a client's record even if their EO case was closed as 'Opened in Error'?
+  - In the event of a duplicate Employment Ontario (EO) case needing to be closed, the EOIS Service Desk analysts will close the case as 'Opened in Error'. This does not erase the record, but instead ensures that the case details do not affect the Service Providers reports. Only an analyst from the EOIS Service Desk can reopen an EO case that was closed as 'Opened in Error'.
+- - How can I find out why an OP or UP was created?
+  - Navigate to the originating PDC and click on the Financial tab.  Then, click on the Over and Under Payments section of the screen.  You will then be able to see a list of any over and underpayments created for a case.  Clicking on the blue toggle arrow will provide more information on how the case was created. Under the action column in the Over and Underpayments page, clicking on the icon will provide the 'decisions' for the case. Decisions are the results of the check eligibility function.  The page provides the ability to compare decisions that were taken for a specific period of time.  Comparing eligibility decisions will help to give you a clear picture of how a case was changed and how an over or underpayment was created.
+- - Why do I get a red X when trying to check eligibility?
+  - There is an Adobe SVG Viewer that the OPS IT Service Desk will need to install on your computer in order for the Check Eligibility action in CaMS to work correctly.  If you're getting a red X or broken picture link, you'll need to do the following":" Contact the OPS Service Desk (phone number is on the sticker on your computer) and ask them to uninstall any SVG viewers currently on your PC and then install package MGS_ADOBE_SVGVIEWER_303 (for Windows 7 machines). They then need to do the following":" 1. Delete temp files and cookies on user's PC 2. Turn off the pop up blocker 3. Add https://www.eoiscampk.edu.gov.on.ca/eoaccess.html to local intranet sites Please ensure that all 3 bullet points above are completed by the OPS Service Desk.  Clients have been told that the follow-up steps are not necessary but not doing them tends to cause issues.
+- - I got a check eligibility error. Why?
+  - Clicking on the '+' sign next to the error will provide more information on where the error is located.
+- - What dates should I be entering when?
+  - When a date field has a hard-coded rule, a user will receive an error message if they enter an incorrect date (some date fields require a Sunday start date, for example).
+- - What happens when a PDC is unsuspended?
+  - The Product Delivery Case will return to Active status and any payments that were skipped during the suspension period will be rolled out and paid out during the client's next scheduled payment. If this needs to be avoided, the PDC needs to be unsuspended and benefit evidence needs to immediately be amended and go through the approval process.  This must be done before the Thursday night batch if the client's pay cycle falls within that same week.
+- - When will my client get paid?
+  - A PDC Payment Schedule Desk Aid can be found by clicking this link":" http://asatraining.edu.gov.on.ca/Case_Management/documents/Payment_Schedule_Desk_Aid_v4.0.pdf.
+- - eligibility
+  - Is this what you are asking":"           I got a check eligibility error. Why?        OR        Why do I get a red X when trying to check eligibility?
+- - client
+  - Is this what you are asking":"           When will my client get paid?        OR        Why can my service provider still see a client's record even if their EO case was closed as 'Opened in Error'?
+

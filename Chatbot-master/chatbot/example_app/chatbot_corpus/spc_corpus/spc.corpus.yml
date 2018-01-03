@@ -1,0 +1,52 @@
+
+categories:
+- spc
+conversations:
+
+- - How is service provider information updated in EOIS-SPC?
+  - The service provider section contains content that is managed in both CaMS and SP Connect. The information in the Service Provider Profile, Address and Service Delivery Sites panels is populated from CaMS and must be updated  by a Ministry Regional Coordinator or Ministry Regional Administrator from the Resources and Planning Unit . Changes will appear the next day in SP Connect. The information in the Corporate Details panel can be updated in SP Connect by directly clicking on the Edit button.
+- - A service provider contacted the local office to advise they have received a 'Notice for Certification of Insurance Expiration' email. Was this email sent by SP Connect?
+  - SP Connect sends email notifications to service providers when the Certificate of Insurance (CoI) expiration date is approaching and/or if the date has already past. For the initial launch of SP Connect, the CoI expiration date was based on the current expiration date  in the FMR. Once the CoI is received, the Ministry Regional Administrator can open the agreement page and capture the new date expiration date in the Corporate Details Panel.
+- - What happens in SPC if the Certificate of Insurance (Col) expires?
+  - If the CoI expiration date has past, the system will automatically put a hold on the payments. The service provider's payments will be automatically held  for all agreements  and will not appear on the payment report. A hold can be removed by the Ministry Regional Administrator by unchecking and saving the 'Hold Payments' box under the Agreement Page Corporate Details panel and removing the COI Expired comments.
+- - Why does the Service Provider page show a 'CoI Expired' comment even though the COI date is not expired?
+  - When the COI expiration date was updated the comment was not removed. The Ministry Regional Administrator should go in and remove the comment.
+- - A service provider has advised they are receiving multiple '3rd COI expiration' emails. How often does the system send the service provider the 3rd notice for CoI expiration?
+  - The notice will be sent out daily until the COI expiration date is updated by the MRA in SP Connect. This is a known issue and will be corrected in the June release of SP Connect. After the issue has been fixed, a Service Provider should only receive one notification regarding the CoI expiry.
+- - Who will complete the CMS PY file uploads for PY reconciliation?
+  - Access to the CMS payment report is given to specific regional users. This report is then  uploaded to complete the payment reconciliation process. If required, the initial reports can be generated and uploaded by  BSU. Once the upload is complete, the Regions will be notified.
+- - How can a PY be put on hold in SPC? Can I put a PY on hold at a program level?
+  - At present the only way to put payments on hold is to do so at the service provider level. This means all agreements across all regions and programs for the Service Provider site would be put on hold. This can be done by opening the service provider page and in the Corporate Details Panel, checking the Hold Payments box. Individual agreements or program payment holds cannot be done at this time.
+- - Can I put a PY on hold at a program level?
+  - Individual agreements or program payment holds cannot be done at this time.
+- - Why are the original allocation and original targets columns blank in the PY schedule?
+  - After the agreement is activated, the system will complete an overnight run and the E column values will be populated the next day.
+- - An agreement has just been activated but is not showing on the payment report?
+  - There is a 40 minute lag time between when an agreement is activated and it appears on the payment report. When the report is rerun, if the payment is not showing, check the following. • Payment schedule has payment for the month in which the report is run • COI expiration date has not past as this will put a hold on payments • CaMS Services have been set up correctly for the program
+- - If an April PY has been made in CMS but not reconciled in SPC, how will it affect the May payment report?
+  - The May payment report will show the value of the May payment schedule in the Amount Owing in May. If one or more of the April payment lines are not reconciled, the Outstanding Amount Payable will not be updated to reflect the April payments. This should not cause an issue for processing May payments, however, the April reconciliations will still need to be completed before the May reconciliation is done.
+- - If the April and May PYs are processed in CMS in April, can they both be reconciled in the same X3 payment reconciliation upload?
+  - No, separate uploads are required for two payments made against the same PO line because the system will only recognize the first entry. Only the April payment will need to be completed in an X3 upload and reconciled before the next upload is completed to address the May payment.
+- - What role will MAESD staff have in creating and maintaining EOIS-SPC user accounts for service providers?
+  - SP Connect service providers will be responsible for managing their own user accounts via the CaMS user set up process. Every service provider organization must appoint individuals who will assume the responsibility  of creating and maintaining their own user accounts. These individuals will be designated as the Service Provider Registration Authorities (SPRA). The Ministry Resources and Planning staff will be responsible for creating and maintaining SPRA user accounts but once the SPRAs are set up, the SPRA will manage the user community within their agency.
+- - Which MAESD staff will have the responsibility of setting up and managing SPRA user accounts?
+  - The SPRA registration process will include a face-to-face meeting between the SPRA candidate and their local Service Delivery Manager. Once the Service Delivery Manager signs off the registration form, the form will be forwarded to the regional Resource & Planning Unit where the SPRA data will be entered into EOIS-CaMS. If a SPRA requires updates to their account information, they will contact their local Service Delivery Manager who will then pass along the request to the Resource & Planning Unit.
+- - Can a SPRA assign their own SPC role?
+  - No, the SPRA can setup other users in their organization, but does not have access to their own profile. If the SPRA wishes to make any changes or updates to their role, they need to follow the current process of completing the SPRA Administration Form EOIS-CaMS. This form is available on the EOPG under the User management link. SPRAs will need to complete this form and submit it to their local Service Delivery Manager who would forward the form on to the Ministry Regional Administrator in the region who can make the necessary changes.
+- - The regional director is going on vacation; how can the actor be set up with the SP Connect Ministry Regional Director (MRD) role?
+  - The process to set up a temporary delegation of authority for the SP Connect MRD follows the same process as in CaMS. Complete the EOIS Registration/Revocation Form to make the request.  If the actor currently has a SP Connect role, they will need to have the current role suspended until the acting period is over.
+- - Why are the LBS Support Organization Delivery costs not showing in the Targets panel of the View Targets and Allocations page?
+  - This issue is being addressed but it may take a week or two to fix. In the meantime, a manual review will be needed to match the costs to the specific deliverable.
+- - Who can generate an AA in SPC?
+  - The Ministry Regional Administrator is the only role that can create agreements or amending agreements.
+- - How can a manager for one local office locate the Ministry Forecasts for another office if they are required to confirm the forecasts?
+  - The Ministry Local Manager (MLM) can go to the Monitoring section Bulk Confirm Local Office Forecast link and filter by the required local office. The list will be displayed. MLM have the access to complete this function for any forecast in their region.
+- - How can I find the Ministry Forecast for a service provider site?
+  - First, verify the service provider has an active agreement for the program and the site is part of the agreement. To do this, go to the service provider page and in the bottom panel 'List Active Agreements' verify if the agreement is listed. If yes, open the agreement and confirm the site is listed.
+- - I can't view the Ministry Forecast from the Dashboard or the List Ministry Forecast date, why?
+  - In order to view the Ministry Forecast, please follow  these steps. • Go to the service provider page and verify the provider has an active agreement for the program. • If Yes, o Open the agreement and verify that the agreement is associated to the correct site. o Go to CaMS Services and verify the Transfer Payment Account and Business Plan Owner and Business Plan Manager fields are completed and accurate. • If No, o Contact your regional Resources and Planning  unit to have the CaMS Services updated. Once updated, the Ministry Forecast will be available in SP Connect the next day. Otherwise, follow the support process to contact EOIS Service Desk.
+- - EOIS-SP
+    Is this what you are asking?           How is service provider information updated in EOIS-SP Connect?           OR           What role will MAESD staff have in creating and maintaining EOIS-SP Connect user accounts for service providers?
+- - SPRA
+  - Is this what you are asking?           Which MAESD staff will have the responsibility of setting up and managing SPRA user accounts?        OR        Can a SPRA assign their own SP Connect role?
+

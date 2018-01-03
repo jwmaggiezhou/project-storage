@@ -1,0 +1,267 @@
+
+categories:
+- spc
+conversations:
+
+- - What is the difference between a BP and a BP Package
+  - Business Plans are grouped in Business Plan Packages by region, site and program. Each Package contains a Business Plan for one or more sites where a program will be delivered. For more information about Business Plan Packages, see the Business Plan Management Guide (section 7.1.1 for Ministry staff and 5.3 for Service Providers).
+- - What details are included in a BP?
+  - The name of the program, ID, status, effective Date, end date, and region are included in a Business Plan.
+- - What is a Business Unit?
+  - A Business Unit defines the reporting entity according to the unique management needs of its ministry. The Employment and Training Division of the Ministry of Advanced Education and Skills Development uses the business unit to identify the program (including programs with multiple funding categories) through which funds are flowed, managed and monitored. For example, Employment Services is funded through business unit 3510; Canada Ontario Job Grant (i) 25 and Under Operating Funds is funded through business unit C101, (ii) 25 and Under Training Contribution is funded through business unit C102.
+- - What is the Dashboard for?
+  - The Dashboard is SP Connect's home page, and was designed to be a quick view of the tasks that you need to perform. The Introduction and Navigation user guide explains how to use the Dashboard (see section 1.8.2 Dashboard for Ministry staff and section 1.11 Dashboard for Service Providers).
+- - What information can be found on the Dashboard?
+  - Adjustments(Payment or Target/Allocation adjustments that require action), Certificate of Insurance Expiry List, Service Provider Forecast, and Local Office Forecast.
+- - I want to compare two screens, how do I do that?
+  - To compare two screens, navigate to one of the two screens and press the Control (Ctrl) button on your keyboard before clicking on the link that opens the page. For example, to compare the payment screen to the target and allocation screen, navigate to the View Agreement page, press the Control button and click the hyperlink for View Targets and Allocations. You will see a new web page open with the targets and allocations. Then simply click the View Payment Schedule and you can compare the two screens.
+- - How do I find an Agreement?
+  - First click on the Agreements tab. Then you may use Quick Search to seach for an agreement by PO number. Alternatively, click on the List Agreements link and input search criteria.
+- - What is the purpose of the Feedback section?
+  - ​The Feedback section is intended for you to inform those who manage the SP Connect system of what you like most about the system but more importantly where you see room for improvement. The Feedback area will be monitored regularly and we will try to incorporate all suggestions as best as we can. For more information see the Introduction and Navigation guide (section 1.12 for Ministry staff and 1.16 for Service Providers).
+- - What is the time-out period of SPC?
+  - The time-out period is 20 minutes which cannot be adjusted.
+- - How can I edit my EER after I've submitted it?
+  - If an EER has been submitted and the service provider realizes a change is needed, they will need to contact the local office consultant and request that the submission be rejected. Once the forecast is rejected the status will change to Pending Resubmission; this will give the SP a chance to update and resubmit the forecast. Please note, once an EER is in confirmed status it cannot be changed. For more information see the Monitoring Guide (section 8.3 for Ministry staff and 3.4 for Service Providers).If an EER has been submitted and the service provider realizes a change is needed, they will need to contact the local office consultant and request that the submission be rejected. Once the forecast is rejected the status will change to Pending Resubmission; this will give the SP a chance to update and resubmit the forecast. Please note, once an EER is in confirmed status it cannot be changed. For more information see the Monitoring Guide (section 8.3 for Ministry staff and 3.4 for Service Providers).
+- - What format is a report generated in?
+  - Reports can be generated in PDF and CSV. Both formats can be saved and printed. CSV files can be manipulated by the user.
+- - What is SPC?
+  - Service Provider Connect will automate the financial and non-financial management and monitoring of the service provider business planning and agreements process for twelve of the Employment Ontario's major Transfer Payment (TP) programs.
+- - Who manages the Calendar?
+  - Only Ministry Divisional Administrators are able to add events to the Calendar. If you would like to have SP Connect related events added to the Calendar, please let us know using the Feedback area.
+- - As a Service Provider, how do I update my profile?
+  - Both the Service Provider Administrator (SPA) and Service Provider Submission Authority (SPSA) roles can view their Service Provider Profile page and add/update/delete the Corporate Details panels' Website and Service Provider Certificate of Insurance (COI) fields. To update Corporate or Site Contact information please contact your ministry representative.
+- - What is the Fiscal PY Detail Report used for?
+  - This Fiscal Payment Detail Report is used to view the total fiscal year allocation and the planned monthly payment schedule by program and service delivery site.
+- - What information is presented in the Fiscal PY Detail Report?
+  - The Fiscal Payment Summary Report provides an annual overview of each monthly payment for the region by program, organized by Program and Service Delivery Site.-Total Current Allocation is the sum of all budget lines.-Last Confirmed Forecast is based on the last forecast and is the sum of the Regional Forecast amount for all budget lines in the status of Confirmed. If the status is anything but Confirmed, the amount is 0.-Forecast month refers to the current month.-Month columns reflect the monthly breakdown of the total allocation.-YTD Cashflow is the total amount of cash received by the Service Provider to date. This report will only show payments that have been approved in the system.
+- - What is the purpose of Calendar?
+  - The Calendar section is used to display a list of calendar events such as the EERs report due date and any other event created by the ministry. The Calendar section contains two panels • View Calendar • Scheduled Events
+- - What is the purpose of Feedback?
+  - This section gives service providers the opportunity to let the ministry know what they think about the system, and suggest future improvements on how they would like to see the system function. These suggestions will be taken into consideration in future releases.
+- - How can I provide my feedback from SPC?
+  - Click the Feedback section. Enter comments and click Send, and then a confirmation screen will let the user know that their email was sent. Click OK.
+- - What is the Monitoring section used for?
+  - The SP Connect Monitoring section is used to manage ministry forecasting and service provider reporting information. SP Connect uses the term Service Provider Forecast for the system panel and page names. The service provider EER reports can be located in the Service Provider Forecast panels and pages. In this Section you can generate four Report • Ministry Forecast Completion Report • Service Provider Forecast Completion Report • Forecast Summary Report • Forecast Detail Report
+- - The agreements of what programs can be managed through SPC?
+  - The initial release of SP Connect will manage agreements for the following programs •Youth Employment Fund (YEF) •Canada Ontario Job Grant (COJG) Service Providers •Employment Service (ES), •Literacy and Basic Skills (LBS) •Local Boards (LB) •Ontario Employment Assistance Services (OEAS)  •Ontario Self  Employment Benefit (OSEB)  •Summer Jobs Services (SJS)  •Targeted Initiative for Older Workers (TIOW) •Youth Employment Funds (YEF). When an agreement has been generated and sent to the service provider the agreement details will appear in SP Connect. Users can access the agreement page and view the details of the agreement and any amending agreement that has been created.
+- - Is SPC accessible?
+  - Yes. SPC is designed to meet the Accessibility for Ontarians with Disabilities Act (AODA) standards.
+- - What is the recommended screen resolution for the system?
+  - The recommended screen resolution for the system is 1024*768. For information on how to change the screen resolution in Windows 7 (for other operating systems, please refer to relevant documentation), see http://windows.microsoft.com/en-ca/windows7/change-your-screen-resolution.
+- - What browser should I use?
+  - Most web browsers are compatible with EOIS SP Connect, but Internet Explorer is recommended.
+- - What is a time-out period?
+  - A time-out is when the user is automatically logged out of the system. The time-out will occur when the system considers the user to be inactive. In order to be active, a user has to have clicked on a link or action within the current page. The time-out period is 20 minutes, and this cannot be adjusted. If the system times out, only data that was on a page that had not yet been saved will be lost.
+- - Why should I logout of the system?
+  - For security purposes, it is recommended that users logout using the Logout ison in the toobar, as opposed to simply closing the SPC window.
+- - What is the search functionality within SPC?
+  - Searching within SPC  is very limited to various sections. There is no search functionality within the Dashboard section.
+- - Who can generate a PY Reconciliations Report?
+  - Only certain MDA, MRA, and MRC roles can generate a Payment Reconciliations Report.
+- - How can I move back to a previous screen?
+  - Navigation throughout the system creates a "breadcrumb trail" which displays the area(s) that have been viewed. The most current will display at the end of the trail. The trail is a handy tool to move back to a previous screen by clicking on the breadcrumb links.
+- - How do I focus on a section needed?
+  - SP connect has the ability to avoid scrolling up and down on each section by collapsing the sections not being worked on and focusing on the section needed. To collapse or expand a section, click on the Arrow in the far right hand corner of each panel.
+- - What criteria can I use to search for a Service Provider?
+  - The Service Provider section allows the ability to search for a Service Provider using the following search criteria, Service Provider ID, Legal Name, IFIS Supplier Number, and City.
+- - What happens if my COI is going to expire soon?
+  - The system will send notifications to the service provider 30 days and 15 days prior of the expiration date and if the ministry does not receive the document and update the fields prior to the expiration date a notice of expiration will be sent. Once the expiration date has past, the system will put a hold payment flag on the service provider record and scheduled payments will be withheld and will not display on the payment report until the ministry removes the hold payments flag.
+- - Who can update the COI fields?
+  - Only the MRA and MRC can update the COI fields.
+- - How do I know if the job I triggered finished?
+  - Refresh the page. If the message in the green panel says "No job is running", your job has finished.
+- - Why can't I access reports?
+  - Only certain users may access reports. The following users are, MLC, MLM, MRPL, MRC, MRL, MRD, MDA, MRO, MRA.
+- - What is a PY Reconciliation Discrepancy Report?
+  - The Payment Reconciliation Discrepancy Report is used to view the payments that were not reconciled that month. The report is effective an hour after the CMS X3 SPC Payment Reconciliation export is uploaded into SP Connect. See Chapter 4.7 Payment Schedule Management for instructions on how to upload the CMS X3 SPC Payment Reconciliation export. This report will only be available if the upload identifies discrepancies.
+- - What is an Adjustment Report?
+  - The Adjustment Report is used to view the allocation adjustments made throughout the term of the agreement.
+- - Should I generate a report in PDF or CSV format?
+  - While both reports are very detailed, the PDF report is stylized for readability while the CSV is presented as an Excel worksheet with columns and rows. But in the end, both reports contain the same information.
+- - How does a TA adjustment become activated?
+  - 1. An adjustment is proposed. 2.The proposal is submitted locally for review. 3. The proposal gets a Local Office Recommendation. 4. The adjustment gets Regionally Recommended. 5. The adjustment gets Regionally Supported. 6.An ammending agreement is send out. 7. The adjustment becoems active.
+- - How do I create a TA adjustment?
+  - In order to propose a Target and Allocation adjustment for a Service Providers’ program, the Service Provider must have an Active Agreement. Do you have one?
+  - Yes
+  - There are seven stages to complete and activate a proposed/submitted target and/or allocation adjustments. See the steps as outlined in Section 5.1 under 5.1.1 Roles and Responsibilities of the user guide.
+  - No
+  - Please refer to user guide for SP Connect 1 on how to generate an agreement.
+- - Why can't I view my TA adjustments?
+  - In order to view any existing targets and allocations adjustments for a Service Providers’ program, the Service Provider must have an Active Agreement
+  - I have an active agreement.
+  - Click on the Agreement Section and either search by PO Number or click on the List Agreement link found under Agreement Shortcuts panel to view a TA adjustment.
+- - What does TA stand for?
+  - TA stands for target and allocations.
+- - What does PY stand for?
+  - PY stands for payment.
+- - How do I close a TA adjustment?
+  - Ensure the target and allocation adjustment is not active and does not have an associated pending agreement. Ok?
+  - Ok
+  - 1. From the Agreements Section either search by PO Number or Click on List Agreements link under “Agreement Shortcuts” panel. 2. Choose a Service Provider and click on the PO# and then click on the Adjustment REF#. 3. Click on the Close Adjustment" button. 4.Complete the Closure Reason of “Opened in error”, “Withdrawn” or “Rejected” from the drop-down box and Comments (both fields are mandatory) and click OK to proceed or Cancel to abandon.
+- - How do I search for a Service Provider?
+  - 1. From the Dashboard page; click on Service Provider section. 2.Enter the Service Provider Legal Name or Service Provider ID in the Search criteria section. Click Search Button. 3. click on the Service Provider REF# link. The Service Provider profile page will display.
+- - How do I edit fields found in the Service Provider profile?
+  - The fields found in the Service Provider profile, address and service delivery sites sections are sourced and managed in CaMS and can only be edited in CaMS. Once updated in CaMS the information will be available the next day in SP Connect.
+- - Who completes an AA?
+  - Amending agreements generation is completed by the Ministry Regional Administrator user.
+- - I generated an ammending agreement with the wrong template. What do I do?
+  - Once the amending agreement is generated with a wrong template the amending agreement will need to be closed and the adjustment process repeated in full.
+- - What is an AA?
+  - AA stands for Amending Agreement.
+- - What is a PO number?
+  - A Purchase Order number is a document generated by the buyer in order to authorize a purchase transaction.
+- - Is a PO number unique?
+  - Yes. A PO Number uniquely identifies a purchase order and is generally defined by the buyer. The buyer will match the PO number in the invoice to the Purchase Order.
+- - What is SPA?
+  - Service Provider Administrator.
+- - What is SPSA?
+  - Service Provider Submission Authority.
+- - What is MLC?
+  - Ministry Local(Office) Consultant.
+- - What is MLM?
+  - Ministry Local(Office) Manager.
+- - What is MRPL?
+  - Ministry Regional Program Lead.
+- - What is MRC?
+  - Ministry Regional Coordinator.
+- - What is MRL?
+  - Ministry Regional Lead.
+- - What is MRD?
+  - Ministry Regional Director.
+- - What is MRA?
+  - Ministry Regional Administrator.
+- - What is MRO?
+  - Ministry Read Only.
+- - What is MDA?
+  - Ministry Divisional Administrator.
+- - How do I move money between months when adjusting the PY Schedule?
+  - Enter $0 for the proposed amount in your payment schedule as there will be no change to the sites max funds.
+- - What does an Open adjustment status mean?
+  - A payment adjustment has been started but not yet submitted.
+- - What does a Submitted adjustment status mean?
+  - A payment adjustment has been submitted by an SPSA. MLC must action the adjustment.
+- - What does a Local Office Supported PY Adjustment status mean?
+  - A payment adjustment request has been submitted by a MLC. MRA must action the adjustment.
+- - What does an Approved PY Adjustment status mean?
+  - MRA must allocate the payment adjustment to the appropriate month(s).
+- - What does an Active adjustment status mean?
+  - MRA has activated the adjustment.
+- - How do I check if my adjustments still require some action?
+  - An adjustment report is available so you can check to see all adjustments made and if any still require some action.
+- - How do I view the history of my adjustments?
+  - All payment or target and allocation adjustments that have been made to a site during the fiscal year are saved in the system. You can view these by navigating to the View Payment Schedule of View Target and Allocation pages.
+- - What does a Local Office Recommended TA Adjustment status mean?
+  - An adjustment proposal has been recommended by an MLC. MLM must action the adjustment.
+- - What does a Local Office Supported TA Adjustment status mean?
+  - MLM has reviewed and recommended the adjustment. MRPL must action the adjustment.
+- - What does a Regionally Reviewed TA Adjustment status mean?
+  - MRPL has reviewed and recommended the adjustment. MRC must action the adjustment.
+- - What does a Regionally Recommended TA Adjustment status mean?
+  - MRC has reviewed and recommneded the adjustment. MRL must action the adjustment.
+- - What does a Regionally Supported TA Adjustment status mean?
+  - MRL has reviewed and recommneded the adjustment. MRD must action the adjust
+- - What does an Approved TA Adjustment status mean?
+  - MRD has reviewed and recommneded the adjustment. MRA must action the adjust
+- - What does a Pending Agreement TA Adjustment status mean?
+  - MRA selected that an amending agreement must be created. MRA must send out an amending agreement.
+- - What does a Pending Active TA Adjustment status mean?
+  - MRA has sent out an amending agreement which is currently with the Service Provider.
+- - Who can start the adjustment process?
+  - SPSA, MLC, or MRA.
+- - What is EER?
+  - Expenditure and Forecast Report.
+- - What is EERE?
+  - Expenditure Only Report.
+- - What is EERF?
+  - Forecast Only Report.
+- - What does YTD mean?
+  - Year to date.
+- - How do I recommend a Service Provider Forecast?
+  - The MLC can recommend a Service Provider Forecast report (EER) at the individual report level. The preferred approach is for the MLC to complete this step when reviewing the Ministry Forecast for the applicable month as the Ministry Forecast screen provides additional details unless there is a need to return the submitted EER to the service provider for revision.
+- - Why is there an exclamation mark beside the forecast status?
+  - The exclamation mark beside status is displayed if the forecast is not in Submitted status.
+- - My screen closed when I was filling in fields. What happened?
+  - Do not use the Enter key when completing the fields as the use of this key will prompt the system to think the Cancel button was clicked.  This only occurs on screens where the Cancel button is present. To move between fields use the mouse or tab key.
+- - Who can filter the reports by region?
+  - Only the MRD, MDA and MRO roles can filter by region.
+- - What does the status of the PYs mean?
+  - The Status column shows the various statuses of the payments. What status are you seeing now?
+  - Error
+  - There is a discrepancy between the payment amount in CMS and the payment amount in SP Connect for that month. To correct a payment amount in SP Connect, make a payment adjustment.
+  - Not Found
+  - There is a payment amount in CMS that does not exist in SP Connect. Please contact the EOIS Help Desk.
+  - Not Processed
+  - The payment has either been already reconciled or the payment has a status of Error that hasn't been corrected.
+- - What is Monitoring Report?
+  - The Monitoring Report was designed to further improve the financial accountability and forecasting process for Transfer Payment programs across the Employment and Training Division.
+- - What is Ministry Forecast Completion Report?
+  - This report shows Ministry User the number of Service Providers who have submitted the forecast and percentage of those report that is still pending completion.
+- - What is Service Provider Forecast Completion Report?
+  - This report allows the users to view the completion progress for a forecasting period and to view the service provider completion progress for a forecasting period, how many service providers have completed and how many still pending and what percentage of completion.
+- - What is forecast summary report?
+  - This report allows users to view a summary of a forecasting period. Ministry user wants to view the summary of a forecasting period.
+- - What is in the Monthly PY Report?
+  - The Monthly Payment Report details the amount of funds scheduled to be paid to a service provider at the site level by business unit.
+- - What is YEF?
+  - Youth Employment Fund.
+- - What is COJG?
+  - Canada Ontario Job Grant.
+- - What is ES?
+  - Employment Service.
+- - What is LBS?
+  - Literacy and Basic Skills.
+- - What is SD?
+  - Service Delivery.
+- - What is SO?
+  - Service Organizations.
+- - What is LB?
+  - Local Boards.
+- - What is OEAS?
+  - Ontario Employment Assistance Services.
+- - What is OSEB?
+  - Ontario Self employment Benefit.
+- - What is SJS?
+  - Summer Jobs Services.
+- - What is TIOW?
+  - Targeted Initiative for Older Workers.
+- - What is SP?
+  - Service Provider.
+- - What is TP?
+  - Transfer Payment.
+- - What is AODA?
+  - Accessibility for Ontarians with Disabilities Act.
+- - What responsibilities does a Service Provider have?
+  - The Service Provider must manage their expenses to ensure that they spend the funding appropriately, have an annual audit which verifies this, and be prepared to justify their expenditures during a ministry audit if asked.
+- - What is IFIS?
+  - Integrated Financial Information System.
+- - Can I toggle between English and French?
+  - Unfortunately, toggling between languages is not available at the moment.
+- - Why can't I access SPC in French?
+  - If you are a Ministry member, the application is only available in English.
+- - What language will my email be sent in?
+  - The emails to Service providers will be in English or French based on the service provider’s language setting in CaMS.
+- - How do I sort a list on SPC?
+  - Click on the column header to sort.
+- - What is the maximum number of search results?
+  - Search results pages will return a maximum number of records based on property file setting.  The maximum search results return will be initially set to 100.
+- - What can be done with a published template?
+  - Once templates are in the “Production” tables, ministry staff can use the published template to create business plans, agreements or amending agreements.
+- - What changes when a template is published?
+  - Prior to a template being published, the template author can add, modify and even delete page(s), section(s) or element(s).  After the template is published, the template author can only add or modify page(s), section(s) or elements(s) in the “sandbox”. Content cannot be deleted from published templates.
+- - What happens if I modify a published template?
+  - After modification, the template author can re-publish the template. All changes would be propagated to existing business plans, agreements and amending agreements.
+- - What is YJC?
+  - Youth Job Connection.
+- - What is LEPC?
+  - Local Employment Planning Council Project.
+- - Can I add a calendar event?
+  - Only the MDA may add or edit a calendar event.
+- - What is BPADM?
+  - Ministry Regional Administrator.
+- - What is BPTA?
+  - Ministry Template Author.
+- - What is ITADM?
+  - Ministry IT Administrator.
+- - What is QSAR?
+  - Quantitative structure–activity relationship
