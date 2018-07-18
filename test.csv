@@ -1,2 +1,2 @@
 id,title,description,google_product_category,link,image_link,condition,availability,price,brand,item_group_id
-03,dddd,description for ccc,Clothes,"http://www.example.com/bbb.html",http://www.example.com/bbb.png?id=1,new,in stock,9.99 CAD,somebrand,1
+03,dddd,description for ccc,"Apparel & Accessories > Clothing > Dresses","http://www.example.com/bbb.html",http://www.example.com/bbb.png?id=1,new,in stock,9.99 CAD,somebrand,1
