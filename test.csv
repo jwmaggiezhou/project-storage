@@ -1,4 +1,3 @@
-id,item_group_id,title,google_product_category,condition,description,availibility, link,image_link,price,brand
-12094782046210,1295405809666,White / SA,Media > Books,new,aaa,in stock,https://floatingfiiish.myshopify.com/products/test?variant=12094782046210,https://cdn.shopify.com/s/files/1/0002/9930/2914/products/1.jpg?v=1526477701,10,FloatingFiiish
-12094789189634,1295405809666,B,Media > Books,new,bbb,in stock,https://floatingfiiish.myshopify.com/products/test?variant=12094789189634,https://cdn.shopify.com/s/files/1/0002/9930/2914/products/1.jpg?v=1526477701,10,FloatingFiiish
-12343650254932,1373080289364,C,Media > Books,new,ccc,in stock,https://floatingfiiish.myshopify.com/products/something?variant=12343650254932,https://cdn.shopify.com/s/files/1/0002/9930/2914/products/Screen_Shot_2018-06-13_at_10.57.57_AM.png?v=1529006105,100,FloatingFiiish
+id,item_group_id,title,google_product_category,condition,description,availability,link,image_link,price,brand
+12094782046210,1295405809666,aaa,Media > Books,new,aaa,in stock,https://floatingfiiish.myshopify.com/products/test?variant=12094782046210,https://cdn.shopify.com/s/files/1/0002/9930/2914/products/1.jpg?v=1526477701,10,FloatingFiiish
+12094789189634,1295405809666,bbb,Media > Books,new,test,in stock,https://floatingfiiish.myshopify.com/products/test?variant=12094789189634,https://cdn.shopify.com/s/files/1/0002/9930/2914/products/1.jpg?v=1526477701,10,FloatingFiiish
