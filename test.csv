@@ -1,2 +1,3 @@
-id,title,description,google_product_category,link,image_link,condition,availability,price,brand,item_group_id
-03,ddddd,change description change,"Apparel & Accessories > Clothing","http://www.example.com/bbb.html",http://www.example.com/bbb.png?id=1,new,in stock,9.99 CAD,somebrand,1
+id,item_group_id,title,google_product_category,condition,description,link,image_link,price,brand
+12094782046210,1295405809666,A,Media > Books,new,AAAA,https://floatingfiiish.myshopify.com/products/test?variant=12094782046210,https://cdn.shopify.com/s/files/1/0002/9930/2914/products/1.jpg?v=1526477701,12,FloatingFiiish
+12094789189634,1295405809666,B,Media > Books,new,BBBB,https://floatingfiiish.myshopify.com/products/test?variant=12094789189634,https://cdn.shopify.com/s/files/1/0002/9930/2914/products/1.jpg?v=1526477701,15,FloatingFiiish
